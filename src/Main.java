@@ -22,7 +22,7 @@ public class Main {
         System.out.print(number1[2] + ", " + number1[1] +  ", " + number1[0]);
         System.out.println();
 
-        System.out.print(number2[2] + ", " + number2[1] +  ", " + number2[0]);
+        System.out.print(number2[2] + ", " + number2[1] +  ", " + number2[0]);     //
         System.out.println();
 
         System.out.print(number3[5] +  ", " + number3[4] + ", " + number3[3] + ", " + number3[2] +  ", " + number3[1] + ", " + number3[0]);
