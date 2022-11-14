@@ -45,7 +45,8 @@ public class Main {
 
         System.out.println();
 
-        for(int i= 0; i < number1.length; i++){         // Задача 4 Все нечетные числа в целочисленном массиве четные с помощью прибавления 1
+        // Задача 4
+        for(int i= 0; i < number1.length; i++){
             if(number1[i] % 2 != 0) {
                 number1[i]++;
             }
