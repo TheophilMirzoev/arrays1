@@ -25,8 +25,8 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             System.out.print(number3[i] + ", ");
         }
-        System.out.println();
 
+        System.out.println();
         for (int i = 2; i >= 0; --i) {            // 3 задача
             System.out.print(number1[i] + ", ");
         }
@@ -45,12 +45,16 @@ public class Main {
 
         System.out.println();
 
-        for(int i= 0; i < 1; i++){         // Задача 4 Все нечетные числа в целочисленном массиве четные с помощью прибавления 1
-            number1 [0]++;
-            number1 [2]++;
-            System.out.print(number1[0] + ", " + number1[1] +  ", " + number1[2]);
+        for(int i= 0; i < number1.length; i++){         // Задача 4 Все нечетные числа в целочисленном массиве четные с помощью прибавления 1
+            if(number1[i] % 2 != 0) {
+                number1[i]++;
+            }
+            System.out.print(number1[i] + " ,");
         }
+
+
     }
+
 
 
 
