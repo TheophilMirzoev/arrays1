@@ -52,7 +52,6 @@ public class Main {
             System.out.print(number1[i] + " ,");
         }
 
-
     }
 
 
